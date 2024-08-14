@@ -1,0 +1,12 @@
+//creare var temp kelvin
+const kelvin = 0;
+//creare+calcul temp c
+const celsius = kelvin - 273;
+//creare+calcul temp f
+let fahrenheit = celsius * (9 / 5) + 32;
+//convertire f in numar intreg
+fahrenheit = Math.floor(fahrenheit)
+//temperatura c in Newton
+let Newton=  Math.floor(celsius*(33/100))
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+console.log(`The temperature is ${Newton} degrees Newton.`)
